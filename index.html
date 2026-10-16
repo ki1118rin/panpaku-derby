@@ -27,6 +27,11 @@ header p{margin:0;font-size:16px}
 .cta{display:block;background:var(--accent);color:#fff;text-decoration:none;text-align:center;font-weight:700;font-size:18px;border-radius:12px;padding:16px;margin:24px 0}
 .cta.sub{background:var(--blue)}
 header .cta{max-width:360px;margin:20px auto 20px}
+.entry{background:#fff;border:3px solid var(--accent);border-radius:16px;padding:20px 16px;margin:32px 0 8px;text-align:center}
+.entry h2{border:0;padding:0;color:var(--accent);font-size:24px}
+.entry ul{text-align:left;margin:0 auto 4px;padding-left:1.2em;max-width:420px}
+.entry .cta{font-size:20px;margin:16px 0 8px}
+.cta-cap{display:block;text-align:center;font-size:13px;font-weight:700;color:var(--sub);margin:0 0 4px}
 section{padding:32px 0 8px}
 h2{font-size:22px;margin:0 0 12px;border-left:6px solid var(--blue);padding-left:10px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin:12px 0}
@@ -48,8 +53,10 @@ footer{text-align:center;color:var(--sub);font-size:13px;padding:32px 16px 48px}
   <h1>パン食いダービー</h1>
   <p>パン食い競争の1着、あなたは当てられる？</p>
   <img class="chars" src="img/chars.png" alt="パンクイダービー">
-  <a class="cta" href="https://panpaku-keiba.vercel.app">予想ゲームに参加する</a>
-  <a class="cta sub" href="https://forms.gle/EcLCwhS9BsfuDLw69" style="margin-top:0">パン食い競争に出場する</a>
+  <span class="cta-cap">観て予想する人（無料）</span>
+  <a class="cta" href="https://panpaku-keiba.vercel.app" style="margin-top:0">予想ゲームに参加する</a>
+  <span class="cta-cap">ダービーを走りたい人（締切 10/28）</span>
+  <a class="cta sub" href="https://forms.gle/EcLCwhS9BsfuDLw69" style="margin-top:0">出走の申し込みはこちら ▶</a>
 </header>
 
 <main class="wrap">
@@ -66,7 +73,7 @@ footer{text-align:center;color:var(--sub);font-size:13px;padding:32px 16px 48px}
     <p style="margin:0">出場する人は、申し込みのときに「出走名」をつけます。ディープインパクトのような、馬っぽい名前で走ります。本名やフルネームでもOKです。</p>
   </div>
   <ol class="steps">
-    <li><b>出場を申し込む</b>申込フォームで、出走名などを入力します。</li>
+    <li><b>出場を申し込む</b><a href="https://forms.gle/EcLCwhS9BsfuDLw69" style="color:var(--blue);font-weight:700">申込フォーム</a>で、出走名などを入力します。締切は10/28（水）です。</li>
     <li><b>当日、会場の受付へ</b>参加費は500円です。</li>
     <li><b>パドックで名前を呼ばれる</b>MCが出走名を紹介。自己紹介と意気込みを話します。</li>
     <li><b>パンをくわえてゴール</b>吊るされたパンを手を使わずにくわえて、ゴールを目指します。</li>
@@ -100,9 +107,21 @@ footer{text-align:center;color:var(--sub);font-size:13px;padding:32px 16px 48px}
       <tr><th>参加費</th><td>予想ゲームは無料</td></tr>
       <tr><th>必要なもの</th><td>スマートフォン</td></tr>
     </table>
-    <p class="note">パン食い競争そのものへの参加は、会場の受付（参加費500円）で受け付けます。</p>
+    <p class="note">パン食い競争に出る人は、申込フォームで事前に申し込めます（締切10/28）。当日も会場の受付で受け付けます。参加費は500円です。</p>
   </div>
 </section>
+
+<div class="entry">
+  <h2>ダービーに出たい人はこちら</h2>
+  <ul>
+    <li>出走名をつけて走ります（本名でもOK）</li>
+    <li>参加費500円（当日、受付で現金払い）</li>
+    <li>友だちや家族と、5人までまとめて申し込めます</li>
+    <li>締切：10/28（水）</li>
+  </ul>
+  <a class="cta" href="https://forms.gle/EcLCwhS9BsfuDLw69">出走の申し込みはこちら ▶</a>
+  <p class="note" style="margin:0">申し込みは1分で終わります</p>
+</div>
 
 <section>
   <h2>パンパクってなに？</h2>
@@ -121,8 +140,12 @@ footer{text-align:center;color:var(--sub);font-size:13px;padding:32px 16px 48px}
   </dl>
 </section>
 
-<a class="cta" href="https://panpaku-keiba.vercel.app">予想ゲームに参加する</a>
-<a class="cta sub" href="https://forms.gle/EcLCwhS9BsfuDLw69" style="margin-top:0">パン食い競争に出場する</a>
+<div style="margin-top:32px">
+  <span class="cta-cap">観て予想する人（無料）</span>
+  <a class="cta" href="https://panpaku-keiba.vercel.app" style="margin-top:0">予想ゲームに参加する</a>
+  <span class="cta-cap">ダービーを走りたい人（締切 10/28）</span>
+  <a class="cta sub" href="https://forms.gle/EcLCwhS9BsfuDLw69" style="margin-top:0">出走の申し込みはこちら ▶</a>
+</div>
 </main>
 
 <footer><p>イベントの最新情報は公式Instagramへ<br><a href="https://www.instagram.com/ishinomaki_panpaku/" style="color:var(--blue);font-weight:700">@ishinomaki_panpaku</a></p><p>石巻まちなかパン博覧会 パンパク ／ パン食い競争 運営チーム</p></footer>
